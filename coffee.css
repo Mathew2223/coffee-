@@ -7,8 +7,6 @@ body{
     padding-right: 40px;
     padding-top: 6px;
     padding-left: 40px;
-    /* font-style: Italic; */
-    /* font-family: Inter; */
 }
 header{
     width: 100%;
@@ -49,7 +47,6 @@ header{
     color: #E1D4C9;
     -webkit-text-stroke: 1px #000;
     text-shadow: 0 0 1px #000;
-    
 }
 .Enjoy{
     color: #B0907A;
@@ -70,7 +67,6 @@ header{
     font-size: 24px;
     text-align: center;
 
-    /* padding: 20px 78px 20px 78px; */
     z-index: 10;
     position: relative;
     color: #403F3D;
@@ -116,8 +112,8 @@ button{
 
 .container-choseCof{
     padding-top: 650px;
-    height: 100%;
-    width: 100%;
+    height: 799px;
+    width: Fill (1,440px);
     justify-content: center;
     text-align: center;
     font-size: 60px;
@@ -137,23 +133,23 @@ button{
     display: flex;
     position: absolute;
     padding-top: 350px;
-    left: 50px;
+    left: 40px;
 }
 .rightArr{
     display: flex;
     position: absolute;
     padding-top: 350px;
-    right: 50px;
+    right: 40px;
 }
 .frapC{
     margin-top: -30px;
-    font-size: 34px;
+    font-size: 30px;
     color: #403F3D;
 }
 .frapOptions{
     margin-top: 15px;
     color: #403F3D;
-    font-size: 24px;
+    font-size: 16px;
 }
 .cofDoll{
     margin-top: 15px;
@@ -162,5 +158,84 @@ button{
 }
 
 .container-photosResource{
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    width: 100%;
+    height: 1,325px;
+    border-radius: 40px;
+}
+.whaPhCof{
+    font-size: 60px;
+    color: #403F3D;
+}
+.perfCof{
+    font-size: 60px;
+    color: #B0907A;
+}
 
+img{
+    border-radius: 40px;
+}
+.mayPhoto{
+    margin-top: 20px;
+    display: flex;
+}
+.women-watch{
+    object-fit: cover;
+    height: 590px;
+    width: 660px;
+}
+.beatyCoffee{
+    object-fit: cover;
+    height: 430px;
+    width: 660px;
+    margin-top: 40px;
+
+}
+.menGo{
+    object-fit: cover;
+    width: 660px;
+    height: 430px;
+    margin-left: 40px;
+}
+.WoMen{
+    margin-top: 40px;
+    object-fit: cover;
+    width: 660px;
+    height: 590px;
+    margin-left: 40px;
+} 
+
+.apps-conteiner{
+    margin-top: 180px;
+}
+.down1-app{
+    margin-top: 40px;
+    color: #403F3D;
+    font-size: 60px;
+}
+.download{
+    color: #B0907A;
+}
+.mobile-scr{
+    display: flex;
+    margin-left: 570px;
+    margin-top: -340px;
+}
+.whereIsDownl{
+    gap: 40px;
+    margin-top: -230px;
+    margin-left: 0px;
+}
+footer{
+    width: 1260px;
+    height: 450px;
+    background-color: #665F55;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+}
+.foot-text{
+    font-size: 60px;
 }
