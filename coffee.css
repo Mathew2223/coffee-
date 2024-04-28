@@ -31,27 +31,29 @@ header{
     height: 64px;
 }
 .coffee{
+    font-family: inter;
+    font-weight: 600;
     padding: 100px;
     z-index: 10;
     position: relative;
-    // color: white;
     font-size: 72px;
-    font-weight: 600;
-    line-height: 105%;
     border: 1px;
     width: 530px;
     height: 228px;
-    box-shadow: 0px, 4px, 4px, 0px #00000040;
 }
 .pRem {
     color: #E1D4C9;
     -webkit-text-stroke: 1px #000;
-    text-shadow: 0 0 1px #000;
+    text-shadow: 0px 0px 1px #000;
 }
 .Enjoy{
+    font-style: italic;
     color: #B0907A;
 }
 .about-coffee{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
     padding-left: 100px;
     padding-top: 1px;
     z-index: 10;
@@ -59,7 +61,8 @@ header{
     color: #E1D4C9;
     width: 530px;
     height: 72px;
-    //gap: 40px;
+    text-shadow: 0px 0px 10px #000;
+    text-stroke: 10px #000;
 }
 
 .menuP{
@@ -97,6 +100,8 @@ button{
     color: #403F3D;
 }
 .menu{
+    font-family: inter;
+    font-weight: 500;
     width: 100px;
     height: 60px;
 }
@@ -105,6 +110,8 @@ button{
     height: 20px;
 }
 .P-S{
+    font-family: inter;
+    font-weight: 500;
     display: flex;
     gap: 40px;
     color: #403F3D;
@@ -119,6 +126,8 @@ button{
     font-size: 60px;
 }
 .coffee-fav{
+    font-family: inter;
+    font-weight: 500;
     color: #403F3D;
 }
 .photo2{
@@ -142,35 +151,46 @@ button{
     right: 40px;
 }
 .frapC{
+    font-family: inter;
+    font-weight: 500;
     margin-top: -30px;
     font-size: 30px;
     color: #403F3D;
 }
 .frapOptions{
+    font-family: inter;
+    font-weight: 400;
     margin-top: 15px;
     color: #403F3D;
     font-size: 16px;
 }
 .cofDoll{
+    font-family: inter;
+    font-weight: 500;
     margin-top: 15px;
     color: #403F3D;
     font-size: 30px;
 }
 
 .container-photosResource{
-    justify-content: center;
-    text-align: center;
     padding-top: 60px;
     width: 100%;
     height: 1,325px;
     border-radius: 40px;
 }
 .whaPhCof{
-    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 50px;
     color: #403F3D;
 }
 .perfCof{
-    font-size: 60px;
+    font-style: italic;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 50px;
     color: #B0907A;
 }
 
@@ -211,11 +231,16 @@ img{
     margin-top: 180px;
 }
 .down1-app{
+    font-family: inter;
+    font-weight: 500;
     margin-top: 40px;
     color: #403F3D;
     font-size: 60px;
 }
 .download{
+    font-family: inter;
+    font-weight: 500;
+    font-style: italic;
     color: #B0907A;
 }
 .mobile-scr{
@@ -229,13 +254,56 @@ img{
     margin-left: 0px;
 }
 footer{
-    width: 1260px;
+    width: 100%;
     height: 450px;
     background-color: #665F55;
     margin-top: 200px;
     margin-bottom: 40px;
     border-radius: 40px;
 }
+.foot{
+    display: grid;
+    margin-top: 0px;
+}
 .foot-text{
+    font-family: inter;
+    font-weight: 600;
     font-size: 60px;
+    margin-left: 85px;
+    margin-top: 60px;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0px 0px 3px #000;
+}
+.apps{
+}
+.foot2{
+    margin-left: 20px;
+}
+.apps{
+    margin-top: 50px;
+    margin-left: 85px;
+}
+.instagram{
+    margin-left: 12px;
+}
+.facebook{
+    margin-left: 12px;
+}
+.place{
+    margin-left: 670px;
+    margin-top: -150px;
+}
+.phoneNum{
+    margin-left: 670px;
+    margin-top: -115px;
+}
+.time{
+    margin-left: 670px;
+    margin-top: -80px;
+}
+.contactS{
+    font-family: inter;
+    font-size: 24px;
+    margin-left: 670px;
+    margin-top: -115px;
 }
