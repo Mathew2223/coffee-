@@ -98,6 +98,65 @@ footer{
 
 
 
+.behSup{
+    text-align: center;
+    color: #403F3D;
+    font-size: 60px;
+    font-family: Inter;
+    font-weight: 500;
+}
+.behBeh{
+    color: #B0907A;
+}
+
+.cofEl{
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    display: grid;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.card {
+    weight: 310px;
+    height: 506px;
+    border: 1px solid #C1B6AD;
+    object-fit: cover;
+    border-radius: 40px;
+    padding: 0px;
+}
+.card-img-top{
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+    margin: auto;
+}
+.card-title{
+    padding-left: 20px;
+    padding-top: 12px;
+    font-weight: 600;
+    color: #403F3D;
+    font-size: 24px;
+}
+.card-text{
+    font-family: Inter;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 12px;
+    color: #403F3D;
+    font-size: 16px;
+}
+.doll7{
+    font-family: Inter;
+    padding-left: 20px;
+    padding-top: 12px;
+    color: #403F3D;
+    font-size: 24px;
+    font-weight: 500;
+}
+
 
 .navbar{
     display: flex;

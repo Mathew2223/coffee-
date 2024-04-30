@@ -1,13 +1,18 @@
 * {
+    text-decoration: none;
     margin: 0; 
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
+a{
+    color: #403F3D;
+    border-radius: 40px;
+}
 
-
-
-
-li {
-    list-style-type: none;
+.blocks{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }

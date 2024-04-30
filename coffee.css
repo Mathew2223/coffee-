@@ -115,7 +115,7 @@ footer{
 }
 .col{
     display: grid;
-    padding-top: 20px;
+    padding-top: 40px;
     justify-content: space-between;
 }
 .card {

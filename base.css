@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 body{
     background-color: #E1D4C9;
     padding-right: 40px;
     padding-top: 6px;
     padding-left: 40px;
-    /* max-width: 1200px; */
 }
 header{
     margin-top: 20px;
@@ -69,14 +69,14 @@ header{
 }
 
 .menuP{
-    font-size: 24px;
+    font-size: 16px;
     text-align: center;
     z-index: 10;
     position: relative;
     color: #403F3D;
     background-color: #E1D4C9;
 }
-button{
+button{ 
     width: 200px;
     height: 64px;
     margin-left: 100px;
@@ -89,10 +89,10 @@ button{
     position: relative;
     display: flex;
     z-index: 10;
-    width: 15px;
-    height: 15px;
-    top: -37.33px;
-    left: 243px;
+    width: 20px;
+    height: 20px;
+    top: -41.5px;
+    left: 230px;
 }
 
 .menu-base{
