@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E1D4C9;
+    padding-right: 40px;
+    padding-top: 6px;
+    padding-left: 40px;
+    /* max-width: 1200px; */
+}
+header{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.logo {
+    width: 100px;
+    height: 60px;
+}
+.photo1 {
+    position: absolute;
+    width: 100%;
+    height: 644px;
+    border-radius: 40px;
+    top: 0;
+    left: 0;
+}
+.container-coffee{
+    position: relative;
+    width: 100%;
+    height: 64px;
+}
+.coffee{
+    font-family: inter;
+    font-weight: 600;
+    padding: 100px;
+    z-index: 10;
+    position: relative;
+    font-size: 72px;
+    border: 1px;
+    width: 530px;
+    height: 228px;
+}
+.pRem {
+    color: #E1D4C9;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0px 0px 1px #000;
+}
+.Enjoy{
+    font-style: italic;
+    color: #B0907A;
+}
+.about-coffee{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 100px;
+    padding-top: 1px;
+    z-index: 10;
+    position: relative;
+    color: #E1D4C9;
+    width: 530px;
+    height: 72px;
+    text-shadow: 0px 0px 10px #000;
+    text-stroke: 10px #000;
+}
+
+.menuP{
+    font-size: 24px;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    color: #403F3D;
+    background-color: #E1D4C9;
+}
+button{
+    width: 200px;
+    height: 64px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-color: #E1D4C9;
+    border-radius: 100px;
+    gap: 8px
+}
+.menuArr{
+    position: relative;
+    display: flex;
+    z-index: 10;
+    width: 15px;
+    height: 15px;
+    top: -37.33px;
+    left: 243px;
+}
+
+.menu-base{
+    display: flex;
+    gap: 5px;
+    color: #403F3D;
+}
+.menu{
+    text-decoration: underline 2px;
+    font-family: inter;
+    font-weight: 500;
+    width: 100px;
+    height: 60px;
+}
+.coffee-menu{
+    width: 20px;
+    height: 20px;
+}
+.P-S{
+    font-family: inter;
+    font-weight: 500;
+    display: flex;
+    gap: 40px;
+    color: #403F3D;
+}
+
+.container-choseCof{
+    padding-top: 650px;
+    height: 799px;
+    width: Fill (1,440px);
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+}
+.coffee-fav{
+    font-family: inter;
+    font-weight: 500;
+    color: #403F3D;
+}
+.photo2{
+    margin: 43px;
+    width: 480px;
+    height: 100%;
+}
+.fAv{
+    color: #B0907A;
+}
+.leftArr{
+    display: flex;
+    position: absolute;
+    padding-top: 350px;
+    left: 40px;
+}
+.rightArr{
+    display: flex;
+    position: absolute;
+    padding-top: 350px;
+    right: 40px;
+}
+.frapC{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: -30px;
+    font-size: 30px;
+    color: #403F3D;
+}
+.frapOptions{
+    font-family: inter;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 16px;
+}
+.cofDoll{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 30px;
+}
+
+.container-photosResource{
+    padding-top: 60px;
+    width: 100%;
+    height: 1,325px;
+    border-radius: 40px;
+}
+.whaPhCof{
+    justify-content: center;
+    text-align: center;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 50px;
+    color: #403F3D;
+}
+.perfCof{
+    font-style: italic;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 50px;
+    color: #B0907A;
+}
+
+img{
+    border-radius: 40px;
+}
+.mayPhoto{
+    margin-top: 20px;
+    display: flex;
+}
+.women-watch{
+    object-fit: cover;
+    height: 590px;
+    width: 660px;
+}
+.beatyCoffee{
+    object-fit: cover;
+    height: 430px;
+    width: 660px;
+    margin-top: 40px;
+
+}
+.menGo{
+    object-fit: cover;
+    width: 660px;
+    height: 430px;
+    margin-left: 40px;
+}
+.WoMen{
+    margin-top: 40px;
+    object-fit: cover;
+    width: 660px;
+    height: 590px;
+    margin-left: 40px;
+} 
+
+.apps-conteiner{
+    margin-top: 180px;
+}
+.down1-app{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: 40px;
+    color: #403F3D;
+    font-size: 60px;
+}
+.download{
+    font-family: inter;
+    font-weight: 500;
+    font-style: italic;
+    color: #B0907A;
+}
+.mobile-scr{
+    display: flex;
+    margin-left: 570px;
+    margin-top: -340px;
+}
+.whereIsDownl{
+    gap: 40px;
+    margin-top: -230px;
+    margin-left: 0px;
+}
+
+footer{
+    width: 100%;
+    height: 450px;
+    background-color: #665F55;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+}
+.foot{
+    display: grid;
+    margin-top: 0px;
+}
+.foot-text{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 60px;
+    margin-left: 85px;
+    margin-top: 60px;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0px 0px 3px #000;
+}
+.apps{
+}
+.foot2{
+    margin-left: 20px;
+}
+.apps{
+    margin-top: 50px;
+    margin-left: 85px;
+}
+.instagram{
+    margin-left: 12px;
+}
+.facebook{
+    margin-left: 12px;
+}
+.place{
+    margin-left: 670px;
+    margin-top: -150px;
+}
+.phoneNum{
+    margin-left: 670px;
+    margin-top: -115px;
+}
+.time{
+    margin-left: 670px;
+    margin-top: -80px;
+}
+.contactS{
+    font-family: inter;
+    font-size: 24px;
+    margin-left: 670px;
+    margin-top: -115px;
+}
+
+
+
+.navbar{
+    display: flex;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 140px;
+    z-index: 100;
+}
+li {
+    list-style-type: none;
+}
