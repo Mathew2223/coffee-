@@ -1,15 +1,40 @@
 .cofBlock{
     margin-left: 0px;
+    align-items: center; 
+    border: 1px solid #C1B6AD;
+    padding: 8px; 
+    border-radius: 100px;
+    margin-left: 0px;
     background-color: #E1D4C9;
     /* background-color: #C1B6AD; */
 }
 .teaBlock{
+    margin-left: 16px;
+    align-items: center; 
+    border: 1px solid #C1B6AD;
+    padding: 8px; 
+    border-radius: 100px;
     margin-left: 16px;
     background-color: #E1D4C9;
     /* background-color: #C1B6AD; */
 }
 .desBlock{
     margin-left: 16px;
+    align-items: center; 
+    border: 1px solid #C1B6AD;
+    padding: 8px; 
+    border-radius: 100px;
+    margin-left: 16px;
     /* background-color: #E1D4C9; */
     background-color: #C1B6AD;
+}
+
+.cofIcon{
+    width: 30px; 
+    height: 30px; 
+    border: 1px solid black; 
+    border-radius: 50%; 
+    /* display: flex;  */
+    align-items: center; 
+    justify-content: center;
 }
