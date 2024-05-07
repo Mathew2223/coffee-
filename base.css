@@ -88,6 +88,9 @@ button{
     border-radius: 100px;
     gap: 8px
 }
+.cofCup{
+    display: none;
+}
 .menuArr{
     position: relative;
     display: flex;
@@ -251,7 +254,7 @@ img{
 }
 .mobile-scr{
     display: block;
-    margin-left: 570px;
+    margin-left: 310px;
     margin-top: -350px;
 }
 .whereIsDownl{
@@ -355,11 +358,9 @@ li {
     }
     .photo1{
         height: 644px;
+        padding-left: 0px;
         margin-top: 40px;
-        max-width: 688px;
-    }
-    .coffee{
-        padding: 100px 60px 100px 60px;
+        width: 688px;
     }
     .about-coffee{
         padding-left: 60px;
@@ -369,6 +370,9 @@ li {
         height: 64px;
         margin-top: 0px;
         margin-left: -40px;
+    }
+    .cofCup{
+        display: none;
     }
     .menuArr{
         position: relative;
@@ -394,6 +398,9 @@ li {
         margin-top: 40px;
         margin-left: 20px;
     }
+    .women-watch{
+        margin-left: -20px;
+    }
     .beatyCoffee{
         display: none;
     }
@@ -404,7 +411,7 @@ li {
         max-width: 688px;
         display: grid;
         margin-top: 40px;
-        margin-left: 0px;
+        margin-left: -20px;
     }
     .apps-conteiner{
         margin-top: 80px;
@@ -450,6 +457,172 @@ li {
     
   }
   
-  @media (max-width: 380px) {
-    
+  @media (max-width: 450px) {
+    header{
+        width: 320px;
+        margin-top: 15px;
+    }
+    .logo{
+        margin-left: -12px;
+    }
+    .menuButt{
+        margin-top: -15px;
+        display: flex;
+    }
+    .photo1{
+        margin-left: -20px;
+        height: 552px;
+        margin-top: 10px;
+        max-width: 338px;
+    }
+    .coffee{
+        padding-left: 3px;
+        max-width: 305px;
+        font-size: 42px;
+    }
+    .about-coffee{
+        max-width: 300px;
+        position: absolute;
+        margin-top: -140px;
+        padding-left: 3px;
+        font-size: 15px;
+    }
+    .menuArr{
+        display: none;
+    }
+    button{
+        margin-top: 10px;
+        margin-left: 42px; 
+    }
+    .cofCup{
+        display: flex;
+        margin-left: 127px;
+        margin-top: -2px;
+        position: absolute; 
+    }
+    .leftArr{
+        display: none;
+    }
+    .rightArr{
+        display: none;
+    }
+    .container-choseCof{
+        margin-top: -80px;
+    }
+    .coffee-fav{
+        text-align: center;
+        margin-left: -51px;
+        width: 400px;
+        height: 80px;
+        font-size: 32px;
+    }
+    .photo2{
+        width: 348px;
+        height: 348px;
+        display: flex;
+        margin-left: -10px;
+    }
+    .frapC{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: -28px;
+        width: 348px;
+        height: 30px;
+    }
+    .frapOptions{
+        margin-top: 22px;
+        margin-left: -14px;
+        text-align: center;
+        width: 320px;
+        height: 72px;
+        font-size: 16px;
+    }
+    .cofDoll{
+        text-align: center;
+        margin-left: -30px;
+        width: 348px;
+        height: 30px;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .contr3doot{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 70px;
+        width: 144px;
+        height: 4px;
+    }
+    .container-photosResource{
+        padding-top: 0px;
+    }
+    .whaPhCof{
+        margin-left: -20px;
+        width: 348px;
+        height: 320px;
+        font-size: 32px;
+    }
+    .perfCof{
+        width: 348px;
+        height: 320px;
+        font-size: 32px;
+    }
+    .women-watch{
+        width: 348px;
+        height: 590px;
+        margin-left: -45px;
+    }
+    .WoMen{
+        margin-top: 40px;
+        width: 348px;
+        height: 590px;
+        margin-left: -45px;
+    }
+    .apps-conteiner{
+        padding-top: 0px;
+    }
+    .down1-app{
+        font-size: 32px;
+        margin-left: -40px;
+    }
+    .downTheResors{
+        font-size: 16px;
+        margin-left: -40px;
+        padding-top: 5px;
+    }
+    .whereIsDownl{
+        display: block;
+        margin-top: 40px;
+        margin-left: -20px;
+    }
+    .foot2{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .mobile-scr{
+        width: 348px;
+        height: 348px;
+        margin-top: 200px;
+        margin-left: -10px; 
+    }
+    footer{
+        width: 328px;
+        height: 526px;
+        margin-left: -15px;
+        padding-bottom: 100px;
+    }
+    .foot-text{
+        font-size: 38px;
+        margin-top: 40px;
+        margin-left: 20px;
+        -webkit-text-stroke: none;
+        text-shadow: none;
+    }
+    .apps{
+        margin-top: 210px;
+        margin-left: 20px;
+    }
+    .column-2{
+        margin-left: -140px;
+    }
 }
