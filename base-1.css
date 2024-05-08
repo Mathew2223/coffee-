@@ -56,6 +56,10 @@ header{
         font-family: Inter;
         font-weight: 550;
     }
+    .backK{
+        text-decoration: underline 0.1em;
+        color: #403F3D;
+    }
 }
 @media (max-width: 450px) {
     .logo {
@@ -97,5 +101,8 @@ header{
         display: grid;
         font-family: Inter;
         font-weight: 550;
+    }
+    .backK{
+        text-decoration: underline;
     }
 }

@@ -57,7 +57,7 @@ footer{
 }
 .foot-text{
     font-family: inter;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 60px;
     margin-left: 85px;
     margin-top: 60px;
@@ -155,16 +155,60 @@ footer{
     font-size: 24px;
     font-weight: 500;
 }
-
-
-
-.navbar{
-    display: flex;
-    position: absolute;
-    padding-top: 5px;
-    padding-left: 140px;
-    z-index: 10;
+@media (max-width: 768px) {
+    header{
+        margin-top: 10px;
+    }
+    .menuButt{
+        padding-top: 10px;
+        display: flex;
+    }
+    .logo{
+        margin-top: 0px;
+    }
+    .menu-base{
+        display: none;
+    }
+    .P-S{
+        display: none;
+    }
+    .behSup{
+        margin-top: 20px;
+        width: 688px;
+        font-size: 56px;
+    }
+    footer{
+        display: flex;
+        height: 636px;
+        width: 688px;
+        margin-top: 80px;
+    }
+    .foot-text{
+        margin-left: 50px;
+    }
+    .contactS{
+        position: relative;
+        margin-top: -50px;
+    }
+    .column-2{
+        display: grid;
+        margin-left: -1150px;
+        margin-top: 410px;
+    }
+    .place{
+        margin-top: -25px;
+    }
+    .phoneNum{
+        margin-top: -40px;
+    }
+    .time{
+        margin-top: -50px;
+    }
+    .apps{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
 }
-li {
-    list-style-type: none;
+@media (max-width: 768px) {
+    
 }
