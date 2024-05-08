@@ -11,7 +11,7 @@ body{
 }
 header{
     margin-top: 20px;
-    width: 1440px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -25,8 +25,8 @@ header{
 }
 .photo1 {
     position: absolute;
-    width: 1300;
-    height: 644px;
+    width: 100%;
+    height: 750px;
     border-radius: 40px;
     top: 0;
     left: 0;
@@ -34,7 +34,7 @@ header{
 .container-coffee{
     position: relative;
     width: 100%;
-    height: 64px;
+    height: 180px;
 }
 .coffee{
     font-family: inter;
@@ -128,7 +128,7 @@ button{
 .container-choseCof{
     padding-top: 650px;
     height: 799px;
-    width: 1440px;
+    width: 100%;
     justify-content: center;
     text-align: center;
     font-size: 60px;
@@ -207,15 +207,18 @@ img{
     border-radius: 40px;
 }
 .mayPhoto{
-    margin-top: 20px;
+    width: 100%;
+    margin-top: 100px;
     display: flex;
 }
 .women-watch{
+    margin-left: 200px;
     object-fit: cover;
     height: 590px;
     width: 660px;
 }
 .beatyCoffee{
+    margin-left: 200px;
     object-fit: cover;
     height: 430px;
     width: 660px;
@@ -226,18 +229,20 @@ img{
     object-fit: cover;
     width: 660px;
     height: 430px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .WoMen{
     margin-top: 40px;
     object-fit: cover;
     width: 660px;
     height: 590px;
-    margin-left: 40px;
+    margin-left: 30px;
 } 
 
 .apps-conteiner{
+    width: 100%;
     margin-top: 150px;
+    margin-left: 300px;
 }
 .down1-app{
     font-family: inter;
@@ -254,17 +259,17 @@ img{
 }
 .mobile-scr{
     display: block;
-    margin-left: 310px;
-    margin-top: -350px;
+    margin-left: 550px;
+    margin-top: -410px;
 }
 .whereIsDownl{
-    margin-top: 40px;
-    margin-left: 0px;
+    margin-top: 80px;
+    margin-left: 300px;
 }
 
 footer{
     display: flex;
-    width: 1360px;
+    width: 100%;
     height: 450px;
     background-color: #665F55;
     margin-top: 100px;
@@ -275,12 +280,14 @@ footer{
     font-family: inter;
     font-weight: 600;
     font-size: 60px;
-    margin-left: 85px;
+    margin-left: 333px;
     margin-top: 60px;
     -webkit-text-stroke: 1px #000;
     text-shadow: 0px 0px 3px #000;
 }
 .apps{
+    padding-top: 20px;
+    padding-left: 250px;
 }
 .foot2{
     margin-left: 20px;
@@ -293,26 +300,26 @@ footer{
 }
 .place{
     display: flex;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: -140px;
 }
 .phoneNum{
     display: flex;
     width: 182px;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: -220px;
 }
 .time{
     display: flex;
     width: 175px;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: -300px;
 }
 .contactS{
     display: flex;
     font-family: inter;
     font-size: 24px;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: 80px; 
 }
 .column-1{
@@ -331,24 +338,16 @@ footer{
 }
 
 
-.navbar{
-    display: flex;
-    position: absolute;
-    padding-top: 5px;
-    padding-left: 140px;
-    z-index: 100;
-}
-li {
-    list-style-type: none;
-}
-
-
 @media (max-width: 768px) {
     header{
         margin-top: 10px;
     }
     .menuButt{
+        padding-top: 5px;
         display: flex;
+    }
+    .logo{
+        margin-top: 0px;
     }
     .menu-base{
         display: none;
@@ -430,29 +429,35 @@ li {
     footer{
         display: block;
         height: 636px;
-        max-width: 688px;
+        width: 688px;
         margin-top: 80px;
     }
+    .foot-text{
+        margin-left: 50px;
+    }
     .contactS{
-        position: absolute;
-        margin-top: -150px;
+        position: relative;
+        margin-top: -50px;
     }
     .column-2{
         width: 300px;
-        margin-left: -80px;
-        margin-top: 280px;
+        margin-left: -310px;
+        margin-top: 200px;
+        gap: 40px;
     }
     .place{
-        margin-top: -130px;
+        margin-top: -50px;
     }
     .phoneNum{
         margin-top: -50px;
     }
     .time{
-        margin-top: 0px;
+        margin-top: -50px;
     }
     .apps{
-        margin-top: 240px;
+        display: flex;
+        margin-left: -200px;
+        margin-top: 250px;
     }
     
   }
@@ -620,9 +625,9 @@ li {
     }
     .apps{
         margin-top: 210px;
-        margin-left: 20px;
+        margin-left: -230px;
     }
     .column-2{
-        margin-left: -140px;
+        margin-left: -340px;
     }
 }
