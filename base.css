@@ -212,37 +212,37 @@ img{
     display: flex;
 }
 .women-watch{
-    margin-left: 200px;
+    margin-left: 20px;
     object-fit: cover;
-    height: 590px;
-    width: 660px;
+    height: 490px;
+    width: 560px;
 }
 .beatyCoffee{
-    margin-left: 200px;
+    margin-left: 20px;
     object-fit: cover;
-    height: 430px;
-    width: 660px;
+    height: 330px;
+    width: 560px;
     margin-top: 40px;
 
 }
 .menGo{
     object-fit: cover;
-    width: 660px;
-    height: 430px;
+    width: 560px;
+    height: 330px;
     margin-left: 30px;
 }
 .WoMen{
     margin-top: 40px;
     object-fit: cover;
-    width: 660px;
-    height: 590px;
+    width: 560px;
+    height: 490px;
     margin-left: 30px;
 } 
 
 .apps-conteiner{
     width: 100%;
     margin-top: 150px;
-    margin-left: 300px;
+    margin-left: 20px;
 }
 .down1-app{
     font-family: inter;
@@ -259,38 +259,37 @@ img{
 }
 .mobile-scr{
     display: block;
-    margin-left: 550px;
-    margin-top: -410px;
+    margin-left: 315px;
+    margin-top: -450px;
 }
 .whereIsDownl{
     margin-top: 80px;
-    margin-left: 300px;
+    margin-left: 20px;
 }
 
 footer{
-    display: flex;
     width: 100%;
     height: 450px;
     background-color: #665F55;
-    margin-top: 100px;
+    margin-top: 130px;
     margin-bottom: 40px;
     border-radius: 40px;
 }
 .foot-text{
-    font-family: inter;
-    font-weight: 600;
-    font-size: 60px;
-    margin-left: 333px;
-    margin-top: 60px;
-    -webkit-text-stroke: 1px #000;
+    -webkit-text-stroke: 0.9px #000;
     text-shadow: 0px 0px 3px #000;
-}
-.apps{
-    padding-top: 20px;
-    padding-left: 250px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 60px;
+    margin-left: 85px;
+    padding-top: 40px;
 }
 .foot2{
     margin-left: 20px;
+}
+.apps{
+    margin-top: 50px;
+    margin-left: 85px;
 }
 .instagram{
     margin-left: 12px;
@@ -299,42 +298,22 @@ footer{
     margin-left: 12px;
 }
 .place{
-    display: flex;
-    margin-left: 300px;
-    margin-top: -140px;
+    margin-left: 850px;
+    padding-top: 40px;
 }
 .phoneNum{
-    display: flex;
-    width: 182px;
-    margin-left: 300px;
-    margin-top: -220px;
+    margin-left: 850px;
+    padding-top: 20px;
 }
 .time{
-    display: flex;
-    width: 175px;
-    margin-left: 300px;
-    margin-top: -300px;
+    margin-left: 850px;
+    padding-top: 20px;
 }
 .contactS{
-    display: flex;
     font-family: inter;
     font-size: 24px;
-    margin-left: 300px;
-    margin-top: 80px; 
-}
-.column-1{
-    display: flex;
-    padding-top: 5px;
-}
-.column-2{
-    padding-top: 15px;
-    padding-left: 65px;
-    display: grid;
-}
-.apps{
-    position: absolute;
-    margin-top: 240px;
-    margin-left: 85px;
+    margin-left: 850px;
+    margin-top: -230px;
 }
 
 
