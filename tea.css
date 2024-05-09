@@ -15,6 +15,9 @@ header{
     justify-content: space-between;
     max-width: 1200px;
 }
+.menuButt{
+    display: none;
+}
 .logo {
     width: 100px;
     height: 60px;
@@ -222,5 +225,71 @@ li {
     .apps{
         margin-left: 50px;
         margin-top: 50px;
+    }
+}
+@media (max-width: 450px) {
+    header{
+        margin-top: 7px;
+    }
+    .menuButt{
+        padding-top: 8px;
+        display: flex;
+    }
+    .logo{
+        margin-left: -15px;
+        margin-top: 5px;
+    }
+    .menu-base{
+        display: none;
+    }
+    .P-S{
+        display: none;
+    }
+    .behSup{
+        margin-top: 20px;
+        margin-left: -35px; 
+        width: 360px;
+        font-size: 31px;
+        text-align: center;
+    }
+    .cofBlock{
+        margin-left: -15px;
+    }
+    .container-cof{
+        margin-left: -10px;
+    }
+    footer{
+        width: 328px;
+        height: 426px;
+        margin-left: -15px;
+        padding-bottom: 100px;
+    }
+    .foot-text{
+        font-size: 36px;
+        margin-top: 40px;
+        margin-left: 20px;
+        -webkit-text-stroke: none;
+        text-shadow: none;
+    }
+    .apps{
+        margin-left: 25px;
+        margin-top: 40px;
+    }
+    .contactS{
+        margin-top: -150px;
+        padding-left: 195px;
+        font-weight: 500;
+    }
+    .place{
+        margin-top: -90px;
+        padding-left: 195px;
+    }
+    .phoneNum{
+        margin-top: -50px;
+        padding-left: 195px;
+    }
+    .time{
+        margin-top: -10px;
+        padding-left: 195px;
     }
 }

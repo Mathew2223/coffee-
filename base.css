@@ -378,6 +378,7 @@ footer{
         margin-left: 0px;
     }
     .container-choseCof{
+        margin-top: -70px;
         max-width: 668px;
     }
     .container-photosResource{
@@ -468,7 +469,8 @@ footer{
         margin-top: 15px;
     }
     .logo{
-        margin-left: -12px;
+        margin-top: -14px;
+        margin-left: -25px;
     }
     .menuButt{
         margin-top: -15px;
@@ -512,7 +514,7 @@ footer{
         display: none;
     }
     .container-choseCof{
-        margin-top: -80px;
+        margin-top: -200px;
     }
     .coffee-fav{
         text-align: center;
