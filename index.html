@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My coffee</title>
     <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="base.js">
+    <script src="index.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -45,22 +45,44 @@
                 <img class="menuArr" src="Vector.svg" alt="arrowOfMenu">
             </div>
         </div>
-    
         <div class="container-choseCof">
+            <div class="carousel">
             <div class="fav">
-                <img class="leftArr" src="button-icon-dark (1).svg" alt="arrLeft">
+                <div class="rightArr">
+                    <button class="carousel-button" onclick="onNext();"><img src="button-icon-dark.svg" alt="arrRight"></button>
+                </div>
+                <div class="leftArr">
+                    <button class="carousel-button" onclick="onPrev();"><img src="button-icon-dark (1).svg" alt="arrLeft"></button>
+                </div>
             </div>
-            <div>
-                <img class="rightArr" src="button-icon-dark.svg" alt="arrRight">
-            </div>
-            <div>
                 <p class="coffee-fav">Choose your <a class="fAv"> favorite </a> coffee</p>
-                <img class="photo2" src="coffee-slider-1.svg" alt="Photo about coffee"/>
-                <p class="frapC">S'mores Frappuccino</p>
-                <p class="frapOptions">This new drink takes an espresso and mixes it with brown
-                <br> sugar and cinnamon before being topped with oat milk.</p>
-                <p class="cofDoll">$5.50</p>
-                <img class="contr3doot" src="controls.svg" alt="control">
+                    <ul class="slides">
+                        <li class="slide" data-active>
+                            <img class="photo2-1" src="coffee-slider-1.svg" alt="Photo about coffee1"/>
+                            <p class="frapC">S'mores Frappuccino</p>
+                            <p class="frapOptions">This new drink takes an espresso and mixes it with brown
+                            <br> sugar and cinnamon before being topped with oat milk.</p>
+                            <p class="cofDoll1">$5.50</p>
+                            <img class="contr3doot" src="controls.svg" alt="control">
+                        </li>
+                        <li class="slide">
+                            <img class="photo2-2" src="coffee-slider-2.svg" alt="Photo about coffee12">
+                            <p class="frapC-2">Caramel Macchiato</p>
+                            <p class="frapOptions-2">Fragrant and unique classic espresso with rich caramel-peanut
+                            <br> syrup, with cream under whipped thick foam.</p>
+                            <p class="cofDoll2">$5.50</p>
+                            <img class="contr3doot-2" src="controls (2).svg" alt="control">
+                        </li>
+                        <li class="slide">
+                            <img class="photo2-3" src="coffee-slider-3.svg" alt="Photo about coffee3">
+                            <p class="frapC-3">Ice coffee</p>
+                            <p class="frapOptions-3">A popular summer drink that tones and invigorates. Prepared
+                            <br> from coffee, milk and ice.</p>
+                            <p class="cofDoll3">$4.50</p>
+                            <img class="contr3doot-3" src="controls (3).svg" alt="control">
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="container-photosResource">
@@ -108,7 +130,7 @@
                 <img class="instagram" src="button-icon-light (1).svg" alt="instagram">
                 <img class="facebook" src="button-icon-light (2).svg" alt="facebook">
             </div>
-            </div>
+        </div>
         </div>
         <div class="column-2">
             <div>

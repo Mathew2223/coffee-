@@ -179,30 +179,34 @@ footer{
     }
     footer{
         display: flex;
-        height: 636px;
+        height: 736px;
         width: 688px;
         margin-top: 80px;
     }
     .foot-text{
+        -webkit-text-stroke: none;
+        text-shadow: none;
         margin-left: 50px;
     }
-    .contactS{
-        position: relative;
-        margin-top: -50px;
-    }
     .column-2{
-        display: grid;
-        margin-left: -1150px;
+        margin-left: -1330px;
         margin-top: 410px;
     }
+    .contactS{
+        position: absolute;
+        margin-top: 0px;
+    }
     .place{
-        margin-top: -25px;
+        margin-top: 40px;
+        height: 28px;
     }
     .phoneNum{
-        margin-top: -40px;
+        margin-top: 0px;
+        height: 28px;
     }
     .time{
-        margin-top: -50px;
+        margin-top: 0px;
+        height: 28px;
     }
     .apps{
         margin-left: 50px;
@@ -242,13 +246,13 @@ footer{
     }
     footer{
         width: 328px;
-        height: 426px;
+        height: 526px;
         margin-left: -15px;
         padding-bottom: 100px;
     }
     .foot-text{
         font-size: 36px;
-        margin-top: 40px;
+        margin-top: 10px;
         margin-left: 20px;
         -webkit-text-stroke: none;
         text-shadow: none;
@@ -258,20 +262,20 @@ footer{
         margin-top: 40px;
     }
     .contactS{
-        margin-top: -150px;
+        margin-top: -105px;
         padding-left: 195px;
         font-weight: 500;
     }
     .place{
-        margin-top: -90px;
+        margin-top: -30px;
         padding-left: 195px;
     }
     .phoneNum{
-        margin-top: -50px;
+        margin-top: -8px;
         padding-left: 195px;
     }
     .time{
-        margin-top: -10px;
+        margin-top: -8px;
         padding-left: 195px;
     }
 }

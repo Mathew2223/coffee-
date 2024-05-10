@@ -88,6 +88,10 @@ button{
     border-radius: 100px;
     gap: 8px
 }
+.butt{
+    position: absolute;
+
+}
 .cofCup{
     display: none;
 }
@@ -138,8 +142,15 @@ button{
     font-weight: 500;
     color: #403F3D;
 }
-.photo2{
-    margin: 43px;
+.photo2-1{
+    width: 480px;
+    height: 100%;
+}
+.photo2-2{
+    width: 480px;
+    height: 100%;
+}
+.photo2-3{
     width: 480px;
     height: 100%;
 }
@@ -150,15 +161,62 @@ button{
     display: flex;
     position: absolute;
     padding-top: 350px;
-    left: 40px;
+    margin-left: -100px;
+    z-index: 2;
 }
 .rightArr{
     display: flex;
     position: absolute;
     padding-top: 350px;
-    right: 40px;
+    right: 0px;
+    z-index: 2;
 }
+
+.carousel{
+    position: relative;
+}
+.carousel ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.slides{
+    height: 640px;
+    position: relative;
+}
+.slide{
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    transition: 200ms opacity ease-in-out;
+}
+.slide[data-active]{
+    opacity: 1;
+    z-index: 1;
+}
+.carousel-button{
+    background-color: #E1D4C9; 
+    width: 60px; 
+    height: 60px; 
+    border: none;
+    cursor: pointer;
+}
+
 .frapC{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: -30px;
+    font-size: 30px;
+    color: #403F3D;
+}
+.frapC-2{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: -30px;
+    font-size: 30px;
+    color: #403F3D;
+}
+.frapC-3{
     font-family: inter;
     font-weight: 500;
     margin-top: -30px;
@@ -172,7 +230,35 @@ button{
     color: #403F3D;
     font-size: 16px;
 }
-.cofDoll{
+.frapOptions-2{
+    font-family: inter;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 16px;
+}
+.frapOptions-3{
+    font-family: inter;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 16px;
+}
+.cofDoll1{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 30px;
+}
+.cofDoll2{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 30px;
+}
+.cofDoll3{
     font-family: inter;
     font-weight: 500;
     margin-top: 15px;
@@ -192,6 +278,7 @@ button{
     font-weight: 500;
     font-size: 50px;
     color: #403F3D;
+    margin-top: 100px;
 }
 .perfCof{
     justify-content: center;
@@ -340,6 +427,9 @@ footer{
         margin-top: 40px;
         width: 688px;
     }
+    .coffee{
+        padding-left: 60px;
+    }
     .about-coffee{
         padding-left: 60px;
     }
@@ -378,6 +468,8 @@ footer{
         margin-left: 20px;
     }
     .women-watch{
+        width: 688px;
+        height: 590px;
         margin-left: -20px;
     }
     .beatyCoffee{
@@ -387,9 +479,8 @@ footer{
         display: none;
     }
     .WoMen{
-        max-width: 688px;
-        display: grid;
-        margin-top: 40px;
+        width: 688px;
+        height: 590px;
         margin-left: -20px;
     }
     .apps-conteiner{
@@ -407,37 +498,39 @@ footer{
         margin-top: 140px;
     }
     footer{
-        display: block;
-        height: 636px;
+        display: flex;
+        height: 736px;
         width: 688px;
         margin-top: 80px;
     }
     .foot-text{
+        -webkit-text-stroke: none;
+        text-shadow: none;
         margin-left: 50px;
     }
-    .contactS{
-        position: relative;
-        margin-top: -50px;
-    }
     .column-2{
-        width: 300px;
-        margin-left: -310px;
-        margin-top: 200px;
-        gap: 40px;
+        margin-left: -1330px;
+        margin-top: 410px;
+    }
+    .contactS{
+        position: absolute;
+        margin-top: 0px;
     }
     .place{
-        margin-top: -50px;
+        margin-top: 40px;
+        height: 28px;
     }
     .phoneNum{
-        margin-top: -50px;
+        margin-top: 0px;
+        height: 28px;
     }
     .time{
-        margin-top: -50px;
+        margin-top: 0px;
+        height: 28px;
     }
     .apps{
-        display: flex;
-        margin-left: -200px;
-        margin-top: 250px;
+        margin-left: 50px;
+        margin-top: 50px;
     }
     
   }
@@ -502,13 +595,41 @@ footer{
         height: 80px;
         font-size: 32px;
     }
-    .photo2{
+    .photo2-1{
+        width: 348px;
+        height: 348px;
+        display: flex;
+        margin-left: -10px;
+    }
+    .photo2-2{
+        width: 348px;
+        height: 348px;
+        display: flex;
+        margin-left: -10px;
+    }
+    .photo-3{
         width: 348px;
         height: 348px;
         display: flex;
         margin-left: -10px;
     }
     .frapC{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: -28px;
+        width: 348px;
+        height: 30px;
+    }
+    .frapC-2{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: -28px;
+        width: 348px;
+        height: 30px;
+    }
+    .frapC-2{
         padding-top: 10px;
         text-align: center;
         font-size: 30px;
@@ -524,7 +645,39 @@ footer{
         height: 72px;
         font-size: 16px;
     }
-    .cofDoll{
+    .frapOptions-2{
+        margin-top: 22px;
+        margin-left: -14px;
+        text-align: center;
+        width: 320px;
+        height: 72px;
+        font-size: 16px;
+    }
+    .frapOptions-3{
+        margin-top: 22px;
+        margin-left: -14px;
+        text-align: center;
+        width: 320px;
+        height: 72px;
+        font-size: 16px;
+    }
+    .cofDoll1{
+        text-align: center;
+        margin-left: -30px;
+        width: 348px;
+        height: 30px;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .cofDoll2{
+        text-align: center;
+        margin-left: -30px;
+        width: 348px;
+        height: 30px;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .cofDoll3{
         text-align: center;
         margin-left: -30px;
         width: 348px;
@@ -538,6 +691,21 @@ footer{
         margin-left: 70px;
         width: 144px;
         height: 4px;
+    }
+    .contr3doot-2{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 70px;
+        width: 144px;
+        height: 4px;
+    }
+    .contr3doot-3{        
+        display: flex;
+        margin-top: 40px;
+        margin-left: 70px;
+        width: 144px;
+        height: 4px;
+
     }
     .container-photosResource{
         padding-top: 0px;
@@ -588,27 +756,44 @@ footer{
     .mobile-scr{
         width: 348px;
         height: 348px;
-        margin-top: 200px;
+        margin-top: 205px;
         margin-left: -10px; 
     }
     footer{
         width: 328px;
         height: 526px;
         margin-left: -15px;
-        padding-bottom: 100px;
+        margin-top: 60px;
     }
     .foot-text{
-        font-size: 38px;
-        margin-top: 40px;
+        /* font-size: 36px; */
+        margin-top: 10px;
         margin-left: 20px;
         -webkit-text-stroke: none;
         text-shadow: none;
     }
     .apps{
-        margin-top: 210px;
-        margin-left: -230px;
+        margin-left: 25px;
+        margin-top: 40px;
     }
-    .column-2{
-        margin-left: -340px;
+    .contactS{
+        width: 328px;
+        margin-left: -170px;
+        margin-top: 90px;
+    }
+    .place{
+        width: 328px;
+        margin-left: -170px;
+        margin-top: 10px;
+    }
+    .phoneNum{
+        width: 328px;
+        margin-left: -170px;
+        margin-top: -5px;
+    }
+    .time{
+        width: 328px;
+        margin-left: -170px;
+        margin-top: -5px;
     }
 }
