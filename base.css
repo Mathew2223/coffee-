@@ -415,6 +415,9 @@ footer{
     .logo{
         margin-top: 0px;
     }
+    .rightArr{
+        right: -20px;
+    }
     .menu-base{
         display: none;
     }
@@ -712,6 +715,7 @@ footer{
     }
     .whaPhCof{
         margin-left: -20px;
+        margin-top: -80px;
         width: 348px;
         height: 320px;
         font-size: 32px;
@@ -763,10 +767,10 @@ footer{
         width: 328px;
         height: 526px;
         margin-left: -15px;
-        margin-top: 60px;
+        padding-bottom: 100px;
     }
     .foot-text{
-        /* font-size: 36px; */
+        font-size: 36px;
         margin-top: 10px;
         margin-left: 20px;
         -webkit-text-stroke: none;
@@ -777,23 +781,20 @@ footer{
         margin-top: 40px;
     }
     .contactS{
-        width: 328px;
-        margin-left: -170px;
-        margin-top: 90px;
+        margin-top: -105px;
+        padding-left: 195px;
+        font-weight: 500;
     }
     .place{
-        width: 328px;
-        margin-left: -170px;
-        margin-top: 10px;
+        margin-top: -30px;
+        padding-left: 195px;
     }
     .phoneNum{
-        width: 328px;
-        margin-left: -170px;
-        margin-top: -5px;
+        margin-top: -8px;
+        padding-left: 195px;
     }
     .time{
-        width: 328px;
-        margin-left: -170px;
-        margin-top: -5px;
+        margin-top: -8px;
+        padding-left: 195px;
     }
 }
