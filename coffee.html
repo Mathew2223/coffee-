@@ -30,7 +30,7 @@
         </div>
     </header>
     <main>
-        <div>
+       <div>
             <p class="behSup">Behind each of our cups 
             <br> hides <a class="behBeh">an amazing surprise</a></p>
         </div>
@@ -40,9 +40,59 @@
             <a class="desBlock" href="desert.html"><img class="iconPanc" src="icon (2).png" alt=""> Dessert</a>
         </div>
         <div class="container-cof">
+            <div class="pop_up" id="pop_up">
+                <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                        <div>
+                            <img class="card-img-topS" src="coffee-1.svg" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <p class="card-titleS">Irish coffee</p>
+                                <p class="card-textS">Fragrant black coffee with
+                                Jameson Irish whiskey and
+                                <br> whipped milk</p>
+                            </div>
+                            <div class="SizeZ">
+                                <p class="sizee">Size</p>
+                                <div class="blockS">
+                                    <a class="sBlock"><img class="iconS" src="icon (5).svg" alt="">200ml</a>
+                                    <a class="mBlock"><img class="iconM" src="icon (6).svg" alt="">300ml</a>
+                                    <a class="lBlock"><img class="iconL" src="icon (7).svg" alt="">400ml</a>
+                                </div>
+                            </div>
+                            <div class="AdditiveZ">
+                                <p class="Additives">Additives</p>
+                                <div class="blockZ">
+                                    <a class="b1lock"><img class="icon1" src="icon (8).svg" alt="">Sugar</a>
+                                    <a class="b2lock"><img class="icon2" src="icon (9).svg" alt="">Cinnamon</a>
+                                    <a class="b3lock"><img class="icon3" src="icon (10).svg" alt="">Syrup</a>
+                                </div>
+                            </div>
+                            <div class="totalise">
+                                <p class="totall">Total:</p>
+                                <p class="doll7S">$7.00</p>
+                            </div>
+                            <div class="divider"></div>
+                            <div>
+                                <img class="infoEmpt" src="info-empty.svg" alt="">
+                                <p class="notFinTot">The cost is not final. Download our mobile app to see the final price and place your order. Earn loyalty points and enjoy your
+                                <br> favorite coffee with up to 20% discount.</p>
+                            </div>
+                            <div class="butClos">
+                                <button onclick="closePopUp();" class="clos" id="pop_up_close"><p class="closText">Close</p></button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="cofEl">
                 <div class="col">
-                    <div class="card">
+                    <div class="card" onclick="openModalWIndow('Irish coffee', `Fragrant black coffee with
+                    Jameson Irish whiskey and
+                    whipped milk`, `$7.00`, `coffee-1.svg`);">
                         <img src="coffee-1.svg" class="card-img-top" alt="Irish coffee">
                         <div class="card-body">
                             <p class="card-title">Irish coffee</p>
@@ -51,10 +101,11 @@
                                 <br> whipped milk</p>
                             <p class="doll7">$7.00</p>
                         </div>
-                        </div>
+                    </div>
                    </div>
                    <div class="col">
-                    <div class="card">
+                    <div class="card" onclick="openModalWIndow(`Kahlua coffee`, `Classic coffee with milk and Kahlua
+                    liqueur under a cap of frothed milk`, `$7.00`, `coffee-2.svg`);">
                         <img src="coffee-2.svg" class="card-img-top" alt="">
                         <div class="card-body">
                             <p class="card-title">Kahlua coffee</p>
@@ -65,7 +116,8 @@
                         </div>
                    </div>
                    <div class="col">
-                    <div class="card">
+                    <div class="card" onclick="openModalWIndow('Honey raf', `Espresso with frothed milk, cream
+                        and aromatic honey`, `$5.50`, `coffee-3.svg`);">
                         <img src="coffee-3.svg" class="card-img-top" alt="">
                         <div class="card-body">
                             <p class="card-title">Honey raf</p>
@@ -161,5 +213,6 @@
             </div>
         </div>
     </footer>
+    <script src="mod_windowS.js"></script>
 </body>
 </html>

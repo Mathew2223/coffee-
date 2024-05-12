@@ -115,6 +115,7 @@ footer{
     flex-wrap: wrap;
 }
 .col{
+    cursor: pointer;
     display: grid;
     padding-top: 40px;
     justify-content: space-between;

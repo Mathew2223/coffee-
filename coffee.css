@@ -3,6 +3,297 @@
     padding: 0;
     text-decoration: none;
 }
+
+
+
+.pop_up{
+    /* display: none; */
+    transition: 500ms cubic-bezier(0.465, 0.183, 0.153, 0.946);
+    transform: translate(0, -1000px);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    z-index: 2;
+}
+.pop_up_active{
+    transform: translate(0, 0);
+    background-color: #403F3DCC;
+    /* display: block; */
+}
+.pop_up_container{
+    display: flex;
+    width: 100%; 
+    height: 100%;
+}
+.pop_up_body{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    width: 800px;
+    height: 504px;
+    background-color: #E1D4C9;
+    border-radius: 40px;
+    position: relative;
+}
+
+
+.card-img-topS{
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+    padding-top: 15px; 
+    padding-left: 15px;
+}
+.card-titleS{
+    padding-top: 15px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #403F3D;
+}
+.card-textS{
+    padding-top: 12px;
+    font-family: Inter;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #403F3D;
+}
+.SizeZ{
+    padding-top: 8px;
+}
+.sizee{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #403F3D;
+}
+.blockS{
+    margin-left: -125px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    height: 46px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.sBlock{
+    cursor: pointer;
+    align-items: center; 
+    border: 1px #665F55;
+    padding: 8px; 
+    border-radius: 100px;
+    background-color: #C1B6AD;
+}
+.mBlock{
+    cursor: pointer;
+    margin-left: 4px;
+    align-items: center; 
+    border: 1px solid #C1B6AD;
+    padding: 8px; 
+    border-radius: 100px;
+    margin-left: 16px;
+    background-color: #E1D4C9;
+}
+.lBlock{
+    cursor: pointer;
+    margin-left: 4px;
+    align-items: center; 
+    border: 1px solid #C1B6AD;
+    padding: 8px; 
+    border-radius: 100px;
+    margin-left: 16px;
+    background-color: #E1D4C9;
+}
+.iconS{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    top: 9.2px;
+    left: -5px;
+}
+.iconM{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    top: 9.2px;
+    left: -5px;
+}
+.iconL{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    top: 9.2px;
+    left: -5px;
+}
+.Additives{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #403F3D;
+}
+.blockZ{
+    margin-left: -100px;
+    font-family: Inter;
+    font-weight: 500;
+    height: 46px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.b1lock{
+    cursor: pointer;
+    align-items: center; 
+    border: 1px solid #C1B6AD;
+    padding: 8px; 
+    border-radius: 100px;
+    background-color: #E1D4C9;
+}
+.b2lock{
+    cursor: pointer;
+    margin-left: 4px;
+    align-items: center; 
+    border: 1px solid #C1B6AD;
+    padding: 8px; 
+    border-radius: 100px;
+    margin-left: 16px;
+    background-color: #E1D4C9;
+}
+.b3lock{
+    cursor: pointer;
+    margin-left: 4px;
+    align-items: center; 
+    border: 1px solid #C1B6AD;
+    padding: 8px; 
+    border-radius: 100px;
+    margin-left: 16px;
+    background-color: #E1D4C9;
+}
+.icon1{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    top: 9.2px;
+    left: -5px;
+}
+.icon2{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    top: 9.2px;
+    left: -5px;
+}
+.icon3{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    top: 9.2px;
+    left: -5px;
+}
+.totalise{
+    color: #403F3D;
+    display: flex;
+    width: 438px;
+    height: 30px;
+    padding-top: 15px;
+     
+}
+.totall{
+    width: 438px;
+    height: 30px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+
+}
+.doll7S{
+    width: 378px;
+    height: 30px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: right;
+}
+.infoEmpt{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    padding-top: 10px;
+}
+.notFinTot{
+    padding-right: 12px;
+    margin-top: -15px;
+    margin-left: 20px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    color: #403F3D;
+}
+.butClos{
+    padding-top: 35px;
+    
+}
+.clos{
+    cursor: pointer;
+    background-color: #E1D4C9;
+    width: 438px;   
+    height: 44px;
+    border: 1px solid #665F55;
+    border-radius: 100px;
+}
+.closText{
+    color: #403F3D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+
+}
+.divider{
+    margin-top: 10px;
+    height: 1px;
+    width: 94%;
+    background-color: #C1B6AD;
+}
+
+
 body{
     background-color: #E1D4C9;
     padding-right: 40px;
@@ -114,6 +405,7 @@ footer{
     flex-wrap: wrap;
 }
 .col{
+    cursor: pointer;
     display: grid;
     padding-top: 40px;
     justify-content: space-between;
